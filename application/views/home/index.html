@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Modern Business - Start Bootstrap Template</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/modern-business.css" rel="stylesheet">
+<link rel="stylesheet" href="js/jquery_ui/jquery-ui.css">
+      <script src="js/jquery_ui/jquery-1.10.2.js"></script>
+  <script src="js/jquery_ui/jquery-ui.js"></script>
+  <script src="js/jquery_ui/calendar.js"></script>
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body style="margin: 0px; padding: 0px;" onload="startTime();">
+    <div class="row">
+        <div class="col-md-12 col-lg-12 col-sm-12" style="background-color: #EFE1DB; height: 120px;">
+            <div class="container">
+                <h1 style="text-align: center; color: #999999"><b>Wel Come</b></h1>
+            </div>
+            
+        </div>
+    </div>
+    <!-- Navigation -->
+    <!--navbar-fixed-top-->
+    <nav class="navbar navbar-inverse " role="navigation"  style="height: 30px; margin-bottom: 2px; background-color: #661346; border-radius: 0px;">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html"><i class="glyphicon glyphicon-home"></i></a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="services.html">Services</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Portfolio <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="portfolio-1-col.html">1 Column Portfolio</a>
+                            </li>
+                            <li>
+                                <a href="portfolio-2-col.html">2 Column Portfolio</a>
+                            </li>
+                            <li>
+                                <a href="portfolio-3-col.html">3 Column Portfolio</a>
+                            </li>
+                            <li>
+                                <a href="portfolio-4-col.html">4 Column Portfolio</a>
+                            </li>
+                            <li>
+                                <a href="portfolio-item.html">Single Portfolio Item</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="blog-home-1.html">Blog Home 1</a>
+                            </li>
+                            <li>
+                                <a href="blog-home-2.html">Blog Home 2</a>
+                            </li>
+                            <li>
+                                <a href="blog-post.html">Blog Post</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Other Pages <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="full-width.html">Full Width Page</a>
+                            </li>
+                            <li>
+                                <a href="sidebar.html">Sidebar Page</a>
+                            </li>
+                            <li>
+                                <a href="faq.html">FAQ</a>
+                            </li>
+                            <li>
+                                <a href="404.html">404</a>
+                            </li>
+                            <li>
+                                <a href="pricing.html">Pricing Table</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     <div class="container" style="border: 1px #0281EC solid;background:#fff;box-shadow:0 0 15px #999999">
+      <div class="row">
+        <div class="col-md-12 col-lg-12 col-sm-12" style="padding: 5px;">
+           <!-- Header Carousel -->
+           <header id="myCarousel" class="carousel slide" style=" height: 400px;">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <div class="fill" style="background-image:url('d54da7de-6ad2-4c8a-8f57-145983808fb3_5.jpg');  height:400px;"></div>
+                <div class="carousel-caption">
+                    <h2>Caption 1</h2>
+                </div>
+            </div>
+            <div class="item">
+                <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide Two');"></div>
+                <div class="carousel-caption">
+                    <h2>Caption 2</h2>
+                </div>
+            </div>
+            <div class="item">
+                <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide Three');"></div>
+                <div class="carousel-caption">
+                    <h2>Caption 3</h2>
+                </div>
+            </div>
+        </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="icon-prev"></span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="icon-next"></span>
+        </a>
+    </header>
+        </div>
+    </div>  
+         <div class="row">
+        <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12" style="padding: 5px; box-shadow:#999999 0 0 15px ">
+            <div class="col-md-8 col-lg-8 col-sm-12 col-xs-12" style="">
+               
+          
+                <h2 class="page-header" style="color: #661346">History and Plans</h2>
+                <div class="well">
+            <div class="row">
+                <div class="col-md-12">
+                    <p style="font-size: 17px; text-align: justify">
+                       The government passed the Act in 15 July 2001 to establish a science and technology university in Pabna. The university will be located in the district head quarter of Pabna.
+
+Pabna is a central district town in northern Bangladesh having long historical and cultural heritage. The academic curriculum of the Pabna University of Science and Technology was started on 15 July 2008. This university will play an innovative role in providing need-based higher education, training and research. Also the university will be committed to maintain and raise the quality and standard of higher education for the students as in international standards. This practical and need-based curricula will produce highly qualified trained scientists and technologists for the needs of Bangladesh as well as the world employment market.
+
+The university offers education in science- and technology-based subjects for undergraduate and post graduate levels. This newly established university will occupies an area of about 30 acres, with a number of multi-storied buildings. Because of its location, it has already drawn the attention of brilliant students for admission and scholarly faculty members for teaching and research.
+                    </p>
+                </div>
+               
+            </div>
+        </div>
+               
+           </div>
+        <!-- Content Row -->
+      
+        <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12" style="padding: 0px;">
+            <div class="panel panel-default" style="border: 1px #661346 solid">
+                      <div class="panel-heading" style="background-color: #661346; color: white;">
+                          <h4><i class="fa fa-fw fa-check"></i><b style="text-align: center">Weather News</b></h4>
+                    </div>
+                    <div class="panel-body">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, optio corporis quae nulla aspernatur in alias at numquam rerum ea excepturi expedita tenetur assumenda voluptatibus eveniet incidunt dicta nostrum quod?</p>
+                        <a href="#" class="btn btn-default">Learn More</a>
+                    </div>
+                </div>
+            <div class="panel panel-default" style="border: 1px #661346 solid">
+                      <div class="panel-heading" style="background-color: #661346; color: white;">
+                          <h4><i class="fa fa-fw fa-check"></i><b style="text-align: center">Visitor Counter</b></h4>
+                    </div>
+                    <div class="panel-body">
+                        <center><script type="text/javascript" src="http://widget.supercounters.com/flag.js"></script><script type="text/javascript">sc_flag(609678,"FFFFFF","000000","cccccc",2,10,0,0)</script><br>
+</center>
+                    </div>
+                </div>
+            <div class="panel panel-default" style="border: 1px #661346 solid">
+                      <div class="panel-heading" style="background-color: #661346; color: white;">
+                          <h4><i class="fa fa-fw fa-check"></i><b style="text-align: center">Time</b></h4>
+                    </div>
+                <div class="panel-body">
+                                    <script>
+                function startTime() {
+                var today=new Date();
+                var h=today.getHours();
+                var m=today.getMinutes();
+                var s=today.getSeconds();
+                m = checkTime(m);
+                s = checkTime(s);
+                document.getElementById('txt').innerHTML = h+":"+m+":"+s;
+                var t = setTimeout(function(){startTime()},500);
+                }
+
+                function checkTime(i) {
+                if (i<10) {i = "0" + i};  // add zero in front of numbers < 10
+                return i;
+                }
+                                    </script>
+
+                                    <b> <div id="txt" style="text-align: center; font-size: 30px "></div></b>
+                </div>
+                </div>
+            
+             <div class="panel panel-default" style="border: 1px #661346 solid">
+                      <div class="panel-heading" style="background-color: #661346; color: white;">
+                          <h4><i class="fa fa-fw fa-check"></i><b style="text-align: center">Latest News</b></h4>
+                    </div>
+                    <div class="panel-body">
+                        		<marquee height='200'  onmouseout="this.start()" onmouseover="this.stop()" scrolldelay="5" scrollamount="1" direction="up" behavior="scroll" >
+                    <div style="padding:5px">
+						<div class="newsscroller_title">
+							<a href="" target="_blank">The government passed the Act in 15 July 2001 to establish a science and technology university in Pabna.The university will be located in the district head quarter of Pabna.</a>
+						</div>
+						<div style="clear:both"></div>
+						                            
+					</div>
+                              
+                    </marquee>
+                    </div>
+                </div>
+            
+            <div class="panel panel-default" style="border: 1px #661346 solid">
+                <div class="panel-heading" style="background-color: #661346; color: white;">
+                    <h4><i class="fa fa-fw fa-check"></i><b style="text-align: center">Calendar</b></h4>
+                </div>
+                <div class="panel-body">
+                    
+                     <!--<link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">-->
+<!--  <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+  -->
+                                         <script type="text/javascript">
+
+  $(function() {
+    $( "#datepickerr" ).datepicker();
+  });
+  </script>
+ 
+                    <div id="datepickerr" style="width: 100%; height: 300px; border: 1px solid">
+                        <style type="text/css">
+.calendar{margin-top:10px;background:#F1E3DB;border:2px solid #564739;}
+.calendar h2{background:#661346;line-height:35px;padding:6px;
+color:#fff;margin-bottom:3px;margin-top:0px;
+box-shadow: 0px 1px rgba(255, 255, 255, 0.3) inset, 0px -1px rgba(0, 0, 0, 0.3) inset, -1px 0px rgba(255, 255, 255, 0.1);
+text-align:center}
+.calendar table{margin:0 0 0 5px}
+.calendar th {
+    font-size: 18px;
+    text-align: center;
+    background: none repeat scroll 0px 0px #E0E0E0;
+    border: 3px solid #FFF;
+    padding: 6px 2px;
+    color: #000;
+}
+.calendar tbody td {
+    background: none repeat scroll 0px 0px #F5F5F5;
+    border: 8px solid #FFF;
+    padding: 8.5px;
+    text-align: center;
+    font-size: 18px;
+}
+.calendar caption {
+  background-color: #A13265;
+  color: #FFFFFF;
+  font-family: 'OpenSans-Semibold',Arial,Verdana,sans-serif;
+  padding: 6px;
+  text-align: center;
+ 
+}
+.calendar tfoot td {
+  background: none repeat scroll 0 0 #3F3C3D;
+  border-top: 3px solid #FFFFFF;
+  padding: 8px 8px;
+}
+
+.calendar tbody {
+  color: #402B56;
+}
+.calendar tfoot .next {
+  text-align: right;
+}
+.calendar tfoot td {
+  background: none repeat scroll 0 0 #3F3C3D;
+  border-top: 3px solid #FFFFFF;
+  padding: 8px 8px;
+}
+                        </style>
+                        
+                  
+ 
+     
+                
+                    </div>
+  <div class="calendar">
+  <script type="text/javascript">
+            calendar();
+        </script>
+                        
+  </div> 
+
+                </div>
+            </div>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            </div>
+       
+        </div>
+         </div>
+        
+        
+        
+    </div>   
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <!-- Page Content -->
+    <div class="container">
+
+        <!-- Marketing Icons Section -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">
+                    Welcome to Modern Business
+                </h1>
+            </div>
+            <div class="col-md-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4><i class="fa fa-fw fa-check"></i> Bootstrap v3.2.0</h4>
+                    </div>
+                    <div class="panel-body">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, optio corporis quae nulla aspernatur in alias at numquam rerum ea excepturi expedita tenetur assumenda voluptatibus eveniet incidunt dicta nostrum quod?</p>
+                        <a href="#" class="btn btn-default">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4><i class="fa fa-fw fa-gift"></i> Free &amp; Open Source</h4>
+                    </div>
+                    <div class="panel-body">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, optio corporis quae nulla aspernatur in alias at numquam rerum ea excepturi expedita tenetur assumenda voluptatibus eveniet incidunt dicta nostrum quod?</p>
+                        <a href="#" class="btn btn-default">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4><i class="fa fa-fw fa-compass"></i> Easy to Use</h4>
+                    </div>
+                    <div class="panel-body">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, optio corporis quae nulla aspernatur in alias at numquam rerum ea excepturi expedita tenetur assumenda voluptatibus eveniet incidunt dicta nostrum quod?</p>
+                        <a href="#" class="btn btn-default">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <!-- Portfolio Section -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h2 class="page-header">Portfolio Heading</h2>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <a href="portfolio-item.html">
+                    <img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
+                </a>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <a href="portfolio-item.html">
+                    <img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
+                </a>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <a href="portfolio-item.html">
+                    <img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
+                </a>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <a href="portfolio-item.html">
+                    <img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
+                </a>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <a href="portfolio-item.html">
+                    <img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
+                </a>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <a href="portfolio-item.html">
+                    <img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
+                </a>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <!-- Features Section -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h2 class="page-header">Modern Business Features</h2>
+            </div>
+            <div class="col-md-6">
+                <p>The Modern Business template by Start Bootstrap includes:</p>
+                <ul>
+                    <li><strong>Bootstrap v3.2.0</strong>
+                    </li>
+                    <li>jQuery v1.11.0</li>
+                    <li>Font Awesome v4.1.0</li>
+                    <li>Working PHP contact form with validation</li>
+                    <li>Unstyled page elements for easy customization</li>
+                    <li>17 HTML pages</li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, omnis doloremque non cum id reprehenderit, quisquam totam aspernatur tempora minima unde aliquid ea culpa sunt. Reiciendis quia dolorum ducimus unde.</p>
+            </div>
+            <div class="col-md-6">
+                <img class="img-responsive" src="http://placehold.it/700x450" alt="">
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <hr>
+
+        <!-- Call to Action Section -->
+        <div class="well">
+            <div class="row">
+                <div class="col-md-8">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, expedita, saepe, vero rerum deleniti beatae veniam harum neque nemo praesentium cum alias asperiores commodi.</p>
+                </div>
+                <div class="col-md-4">
+                    <a class="btn btn-lg btn-default btn-block" href="#">Call to Action</a>
+                </div>
+            </div>
+        </div>
+
+        <hr>
+
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright &copy; Your Website 2014</p>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Script to Activate the Carousel -->
+    <script>
+    $('.carousel').carousel({
+        interval: 5000 //changes the speed
+    })
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,8 @@
+table.nostyle th, dl.nostyle dt {color:#303030 !important;}
+th{
+    cursor: row-resize
+}
+.va-top {vertical-align:top !important;}
+.va-middle {vertical-align:middle !important;}
+.va-bottom {vertical-align:bottom !important;}
+.input-text {width:145px;}

@@ -1,0 +1,83 @@
+body
+{
+    background:url(../design/bg.jpg) no-repeat center top #310b28;
+    font-family:Arial, Helvetica, sans-serif;
+    padding:0;
+    font-size:12px;
+    margin:0 auto;
+    color: #0e4354;
+}
+.clear{
+    clear:both;
+}
+#main_container{
+    margin:0 auto;
+    width:900px;
+    padding:0px 0 0px 0;
+}a.forgot_pass{
+    float:right;
+    color:#256c89;
+    text-decoration:none;
+    background:url(../design/help.png) no-repeat left;
+    padding:0 0 0 18px;
+    display:block;
+    margin:15px 20px 0 0;
+}
+.login_form{
+    width:600px;
+    height:250px;
+    background: white  url(../design/login_bg.png) no-repeat center top;
+    margin:20px 0 0 145px;
+    float:left;
+    padding:0px 0 0 0px;
+}
+.form{
+    width:600px;
+    float:left;
+    clear:both;
+}
+fieldset { border:none; clear:both;}
+label {font-size:11px; font-weight:bold; color:#666;}
+label a{font-size:11px; font-weight:bold; color:#666;}
+dl {clear:both; width:600px;}
+dl.submit {clear:both; width:500px; text-align:center; padding:0 0 0 90px;}
+
+dt {float:left; text-align:right; width:170px; line-height:34px; padding:0 10px 10px 0;}
+dd {float:left; width:400px; margin:0 0 10px 0;}
+
+
+label.check_label{
+    padding:0 0 0 10px;
+    line-height:32px;
+}.header{
+    width:900px;
+    height:100px;
+}
+.header_login{
+    width:600px;
+    margin:auto;
+}
+.logo{
+    float:left;
+    padding:35px 0 0 0;
+}
+.footer{width:900px;height:87px;background:url(../design/footer_bg.jpg) no-repeat center top;}
+.footer_login{width:600px;margin:auto;}
+.footer{width:900px;height:87px;background:url(../design/footer_bg.jpg) no-repeat center top;}
+.footer_login{width:600px;margin:auto;}
+
+.left_footer{float:left;padding:25px 0 0 10px;color:#a8549b;font-size:11px;}
+.left_footer a{color:#FFFFFF;text-decoration:none;}
+.right_footer{float:right;padding:25px 10px 0 0;}
+
+.left_footer_login{float:left;padding:15px 0 0 10px;color:#a8549b;font-size:11px;}
+.left_footer_login a{color:#FFFFFF;text-decoration:none;}
+.right_footer_login{float:right;padding:15px 10px 0 0;}
+h3{
+    font-size:18px;
+    color:#256c89;
+    font-weight:normal;
+    padding:15px 0 5px 20px;
+    margin:0px;
+    float:left;
+}

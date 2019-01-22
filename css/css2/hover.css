@@ -1,0 +1,795 @@
+body { 
+	font-family: arial, monospace; 
+	line-height: 1.3; 
+	color: #335500; 
+	/*#335500 dark green font color*/
+	font-size: small; 
+	margin: 20px; 	
+	background-color: #e9e9e2; 
+}  
+
+h1, h2, h3, h4, h5, h6, p, ul, ol, dir, menu, div,
+dt, dd, address, blockquote, pre, br, hr, form, dl { 		display: block; 
+}
+
+h1, h2, h3, h4, h5, .code, .time, .day, .date { 		background-color: #e9e9e2; 
+}
+
+h1 { 
+	font-size: 2.5em; 
+}
+h2, .likeh2 { 
+	font-size: 2.0em; 
+}
+h3, .likeh3 { 
+	font-size: 1.5em; 
+}
+h4, .likeh4 { 
+	font-size: 1em; 
+}
+h5, .likeh5 { 
+	font-size: 0.8em; 
+}
+
+a { 
+	color: #335500; 
+	background-color: #e9e9e2; 
+}
+
+a:link, a:visited, a:hover, a:active { 
+	background-color: #e9e9e2;   
+}
+
+.link a:link, .link a:visited, .link a:hover, .link a:active { 
+	background-color: #e9e9e2; 
+}
+
+h1 { 
+	text-align: center; 
+	font-weight: bold; 
+	color: #de7008; /*#de7008 orange*/
+}  
+
+h2, .likeh2 { 
+	font-weight: bold; 
+	color: #996633; /*#996633 dark brown*/
+	text-align: left; 
+}   
+
+h3, h4, h5, .likeh3, .likeh4, .likeh5 { 
+	font-weight: bold; 
+	color: #996633; 
+	text-align: left;  
+} 
+
+#sitetitle { 
+	font-size: 2.5em; 
+	font-weight: bold; 
+	text-align: center; 
+	color: #de7008; 
+	margin: 0; 
+	text-shadow: #bbbbbb 2px 2px 2px; 
+}
+
+#pagetitle { 
+	font-size: 2.0em; 
+	color: #996633; 
+	text-shadow: #bbbbbb 2px 2px 2px; 
+	text-align: left; 
+}
+
+b { 
+	font-weight: bold; 
+}
+.italic { 
+	font-style: italic; 
+}
+.underline { 
+	text-decoration: underline; 
+}
+.psmall { 
+	font-size: small; 
+}
+.px-small { 
+	font-size: x-small; 
+}
+.pxx-small { 
+	font-size: xx-small; 
+}
+.pmedium { 
+	font-size: medium; 
+}
+.plarge { 
+	font-size: large; 
+}
+.code { 
+	font-family: "Courier New", monospace; 
+	color: #774411; /*#774411 brown*/
+}  
+
+code  { 
+	font-family: "Courier New", monospace; 
+	color: #774411; /*#774411 brown*/
+	font-size: small; 
+}  
+
+.center { 
+	text-align: center; 
+}
+.highlight { 
+	color: #ff0000; 
+}
+.offpage { 
+	position: absolute; 
+	top: 0; 
+	left: -9999px; 
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content: ''; 
+	content: none;
+}
+
+q { 
+	font-style: italic; 
+}
+
+
+
+.codelist { 
+	list-style-type: none; 
+	margin: 0; 
+	padding: 0; 	
+	font-family: "Courier New", monospace; 
+	color: #774411; 	
+	font-size: small; 
+} /* needed for phpintroduction*/
+
+hr { 
+	height: 2px; 
+	border-style: solid; 
+	color: #de7008; 
+	background-color: #df7109; 
+	/*for Firefox and Opera*/ 
+	margin-top: 10px; 
+	border: none;
+}
+
+div { 
+	padding: 3px; 
+	border: 1px solid black; 
+}
+#containerfullwidth { 
+	width: 100%; 
+	padding: 0;
+}
+.container1 { 
+	float: left; 
+	width: 645px; 
+	margin: -20px 0 0 15px; 
+	border: none; 
+	padding: 0; 
+} /*if the window is not wide enough this will flip down below and cover side icons when scrolling*/
+
+.container2 { 
+	width: 730px; 
+	margin: auto; 
+	border: none; 	
+	padding: 0; 
+}
+#container3 { 
+	width: 730px; 
+	margin-left: auto; 
+	margin-right: auto; 
+	border: none; 
+	padding: 0 20px; 
+	margin-top: 20px; 	
+	margin-bottom: 40px; 
+} /* used for headerfooterfix.html my footer code*/
+
+#container4 { /*see footerfix.php page*/ }
+
+.fullwidth0pxhigh { 
+	clear: both; 
+	width: 100%; 
+	height: 0px; 
+	font-size: 0px; 
+	line-height: 0px; 
+	padding: 0px; 
+	border: none; 
+}
+.noborder { 
+	border: none; 
+	padding: 0; 
+}
+.background { 
+	background-color: #c0c0c0; 
+	padding: 0; 
+	color: #335500; 
+}
+.leftcol { 
+	width: 40%; 
+	clear: both; 
+	float: left; 
+	padding: 5px 0; 
+	border: none; 
+}
+.rightcol { 
+	padding: 5px 0; 
+	border: none; 
+	margin-left: 40%;
+}
+#footer { 
+	position: fixed; 
+	clear: both; 
+	width: 100%; 
+	height: 30px; 
+	bottom: 0; 
+	border: 0; 
+	padding: 13px 0 0 0; 
+	text-align: center; 
+	color: #335500; 
+	background-color: #ccccc2; 
+}
+.time { 
+	position: fixed; 
+	top: 5px; 
+	left: 5px; 
+	color: #cccccd; 
+	font-size: large; 
+	border: none; 
+}
+.day { 
+	position: fixed; 
+	top: 40px; 
+	left: 5px; 
+	color: #cccccd; 
+	font-size: large;
+	border: none; 
+}
+.date { 
+	position: fixed; 
+	top: 70px; 
+	left: 5px; 
+	color: #cccccd; 
+	font-size: large; 
+	border: none; 
+}
+.inputtime { 
+	color: #cccccd; 
+	border: none; 
+	background-color: #e9e9e2; 
+	font-size: large; 
+	width: 70px; 
+}
+
+img { 
+	border-style: none; 
+}
+
+a:link { 
+	color: #483d8b; 
+	/* DarkSlateBlue unvisited link*/ 
+	outline: none; 
+}  
+
+a:visited { 
+	color: #008000; /* green visited links */ 
+	outline: none; 
+}  
+
+a:hover { 
+	color: red; /* red hover links */	 
+	outline: none; 
+}  
+
+a:active { 
+	color: blue; /* blue active links */ 
+	outline: none; 
+}   
+
+.link a:link { 
+	color: #de7007; /*#de7007 orange*/ 
+	font-weight: bold; 
+	text-decoration: none; 
+	border-bottom: 1px dotted; 
+	outline: none; 
+}  
+
+.link a:visited { 
+	color: #008080; /*#008080 Teal*/ 
+	font-weight: bold; 
+	text-decoration: none; 
+	border-bottom: 1px dotted; 
+	outline: none; 
+}  
+
+.link a:focus { 
+	color: #483d8b; /*483d8b DarkSlateBlue*/
+	font-weight: bold; 
+	text-decoration: none; 
+	border-bottom: 1px solid; 
+	outline: none; 
+}   
+
+.link a:hover { 
+	color: #996633; /*#996633 dark brown*/ 
+	font-weight: bold; 
+	text-decoration: none; 
+	outline: none; 
+}  
+
+.link a:active { 
+	color: #800080; /*800080 Purple*/ 
+	font-weight: bold; 
+	text-decoration: none; 
+	border-bottom: 1px dotted; 
+	outline: none; 
+}  
+
+
+.content { 
+	border: none; 
+	padding: 5px 0; 
+}
+
+.leftnav { 
+	width: 250px; 
+	float: left; 
+	border: none; 
+	padding: 0; 
+}  /*used for Introduction*/
+
+.leftnav2 { width: 200px; 
+	float: left; 
+	border: none; 
+	padding: 0; 
+}  /*used for Links*/
+
+.nav { 
+	display: block; 
+	border: none; 
+	padding: 0; 
+}  /*used for General Advice and Special Effects*/
+
+.leftnav a, .leftnav2 a, .nav a { 
+	display: block; 
+	padding: 5px 0 5px 15px; 
+	font-weight: bold; 
+	text-decoration: none; 
+	outline: none; 
+}
+
+.leftnav a:link, .leftnav2 a:link, .nav a:link { 
+	color: #de7008; /*#de7008 orange*/
+	background-color: #e9e9e2; 
+}   
+
+.leftnav a:visited, .leftnav2 a:visited, .nav a:visited { 
+	color: #008080; /*#008080 Teal*/  
+	background-color: #e9e9e2; 
+} 
+
+.leftnav a:focus, .leftnav2 a:focus, .nav a:focus { 		color: #483d8b; /*483d8b DarkSlateBlue*/
+	background-color: #ddddd2; 
+	text-decoration: underline; 
+	}    
+
+.leftnav a:hover, .leftnav2 a:hover, .nav a:hover { 		color: #996633; /*#996633 dark brown*/ 
+	background-color: #ddddd2; 
+}  
+
+.leftnav a:active, .leftnav2 a:active, .nav a:active { 		color: #800080; /*#800080 Purple*/
+	background-color: #ddddd2; 
+}  
+
+
+
+.rightnav { 
+	margin-left: 250px; 
+	padding: 5px; 
+	border: none; }
+
+.rightnav2 { 
+	margin-left: 200px; 
+	padding: 5px; 
+	border: none; }
+
+/*DROPDOWN MENUS - HORIZONTAL*/
+
+#menuh-container
+	{ 
+	padding: 0; border: none;
+	position:  absolute;
+	top: 0;
+	left: 0;
+	}
+
+#menuh
+	{ padding: 0; border: none;
+	font-size: 14px;
+	font-family: verdana, sans-serif; 
+	width:100%;
+	float:left;
+	margin:1px 0; 
+	}
+
+#menuh a
+	{
+	text-align: center;
+	display:block;
+	border: 1px solid white;
+	white-space:nowrap;
+	margin:0;
+	padding: 1px;
+	}
+
+#menuh a, #menuh a:visited	/* menu at rest */
+	{
+	color: white;
+	background-color: #de7009;
+	text-decoration:none;
+	}
+
+#menuh a:hover	/* menu at mouse-over  */ 
+	{ 
+	text-decoration: underline;
+	color: black;
+	background-color: #f5f5dc;
+	}
+
+#menuh ul
+	{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	float:left;
+	width:104px;	/* width of all menu boxes */
+	}
+
+#menuh li
+	{
+	position:relative;
+	}
+
+#menuh ul ul
+	{
+	position:absolute;
+	z-index:500;
+	top:auto;
+	display:none;
+	padding: 1em;
+	margin:-1em 0 0 -1em;
+	}
+
+#menuh ul ul ul
+	{
+	top:0;
+	left:100%;
+	}
+
+div#menuh li:hover
+	{
+	cursor:pointer;
+	z-index:100;
+	}
+
+div#menuh li:hover ul ul,
+div#menuh li li:hover ul ul,
+div#menuh li li li:hover ul ul,
+div#menuh li li li li:hover ul ul 
+	{
+	display:none;
+	}
+
+div#menuh li:hover ul,
+div#menuh li li:hover ul,
+div#menuh li li li:hover ul,
+div#menuh li li li li:hover ul 
+	{
+	display:block;
+	}
+
+/*end of dropdown menus - horizontal*/
+
+/*DROPDOWN MENUS - VERTICAL FLYOUT*/
+
+#menuv-container
+	{ 
+	padding: 0; 
+	border: none;
+	position:  absolute;
+	top: 0px;
+	left: 0;
+	}
+
+#menuv
+	{ 
+	padding: 0; 
+	border: none;
+	font-size: 14px;
+	font-family: verdana, sans-serif;
+	width:100%;
+	margin:1px;	
+	}
+
+#menuv a
+	{
+	text-align: center;
+	display:block;
+	border: 1px solid white;
+	white-space:nowrap;
+	margin:0;
+	padding: 1px;
+	}
+
+#menuv a, #menuv a:visited	/* menu at rest */
+	{
+	color: white;
+	background-color: #888;
+	text-decoration:none;
+	}
+
+#menuv a:hover	/* menu at mouse-over  */
+	{
+	color: black;
+	background-color: #f5f5dc;
+	}
+
+#menuv ul
+	{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	width:90px;	/* width of all menu boxes */
+	}
+
+
+#menuv li
+	{
+	position:relative;
+	}
+
+#menuv ul ul
+	{
+	left: 100%;
+	top: 0;
+	position:absolute;
+	z-index:500;
+	display:none;
+	padding: 1em;
+	margin:-1em 0 0 -1em;
+	}
+
+#menuv ul ul ul
+	{
+	top:0;
+	left:100%;
+	}
+
+div#menuv li:hover
+	{ 
+	cursor:pointer;
+	z-index:100;
+	}
+
+div#menuv li:hover ul ul,
+div#menuv li li:hover ul ul,
+div#menuv li li li:hover ul ul,
+div#menuv li li li li:hover ul ul 
+	{
+	display:none;
+	}
+
+div#menuv li:hover ul,
+div#menuv li li:hover ul,
+div#menuv li li li:hover ul,
+div#menuv li li li li:hover ul 
+	{
+	display:block;
+	}
+
+#menuv ul li img 
+	{ 
+	position:absolute; top: 25px; left: 320px; 
+	}
+#menuv ul li img 
+	{ 
+	display:none; 
+	}
+#menuv ul li:hover img 
+	{ 
+	display:block;
+	}
+
+/*end of dropdown menus - vertical*/
+
+/*HOVER POPUP LINKS*/
+
+/*hoverpopups type 1*/
+
+#popup { color: #000; background-color: #c0c0c0; }
+
+#popup a, #popup a:visited {
+	position: relative;
+	display: block;
+	width: 130px;
+	line-height: 30px;
+	text-align: right;
+	padding: 0 10px;
+	margin: 0;
+	border: 1px solid #666;
+	text-decoration: none;
+	font-size: 1em;
+	font-weight: bold;
+}
+
+#popup a span {
+	display: none;
+}
+
+#popup a:hover { 
+	background-color: #e9e9e2; 
+}
+
+/* the IE correction rule */
+#popup a:hover	{
+	color: #f00; 
+	background-color: #e9e9e2;
+	text-indent: 0; /* added the default value */
+}
+
+#popup a:hover span {
+	display: block;
+	position: absolute;
+	top: 0px;
+	left: 170px;
+	width: 320px;
+	margin: 0px;
+	padding: 10px;
+	color: #335500;
+	font-weight: normal;
+	background: #e5e5e5;
+	text-align: left;
+	border: 1px solid #666;
+}
+
+
+/*THUMBNAIL HOVERPOPUPS*/
+
+.thumbnail  {
+	position: relative;
+	float: left;
+	padding: 5px;
+	/*z-index: 0;*/
+}
+
+.thumbnail:hover {
+	background-color: #e9e9e2;
+	/*z-index: 50;*/
+	color: #335500;
+	text-decoration: none;
+}
+
+.thumbnail span { /*CSS for enlarged image*/
+	position: absolute;
+	background-color: #e5e5e5;
+	padding: 5px;
+	/*left: -1000px;*/
+	border: 1px solid #666;
+	visibility: hidden;
+	color: black;
+	text-decoration: none;
+}
+
+.thumbnail span img { /*CSS for enlarged image*/
+	border-width: 0px; 
+	/*padding: 2px;*/
+}
+
+.thumbnail:hover span { /*CSS for enlarged image on hover*/
+	visibility: visible; 
+	width: 200px;
+	top: 5px; /* use IF IE6 style to correct IE6 positions of larger image relative to thumb */
+	left: 300px;/*position where enlarged image should offset horizontally */
+}
+
+/*THUMBNAIL2 - thumbnail2 has border and border on hover*/
+
+.thumbnail2 {
+	position: relative;
+	float: left;
+	padding: 5px;
+	/*z-index: 0;*/
+}
+
+.thumbnail2:hover { 
+	background-color: #e9e9e2;
+	/*z-index: 50;*/
+	color: #335500;
+	text-decoration: none;
+}
+
+.thumbnail2 span { /*CSS for enlarged image*/
+	position: absolute;
+	background-color: #e5e5e5;
+	padding: 5px;
+	/*left: -1000px;*/
+	border: 1px solid #666;
+	visibility: hidden;
+	color: black;
+	text-decoration: none;
+}
+
+.thumbnail2 span img { /*CSS for enlarged image*/
+	border-width: 0px;
+	/*padding: 2px;*/
+}
+
+.thumbnail2:hover span { /*CSS for enlarged image on hover*/
+	visibility: visible; width: 208px;
+	top: 5px; /* use IF IE6 style to correct IE6 positions of larger image relative to thumb */
+	left: 300px;/*position where enlarged image should offset horizontally */
+}
+
+a.thumbnail2 img { 
+	text-decoration:none;
+	z-index: 50; 
+}
+
+/*if same attribute for all 4 states, then declare here in
+a.thumbnail2*/ 
+
+a.thumbnail2 img:link { 
+	border: 2px solid #e9e9e2; 
+	background: transparent; 
+}
+
+a.thumbnail2 img:visited { 
+	border: 2px solid #e9e9e2; 
+	background : transparent; 
+}
+
+a.thumbnail2 img:hover { 
+	border: 2px solid #f00; 
+	background : transparent; 
+}
+
+a.thumbnail2 img:active { 
+	border: 2px solid #e9e9e2; 
+	background : transparent; 
+}
+
+a.thumbnail2 img { 
+	border: 2px solid #e9e9e2; 
+}
+
+/*end of hover popup links*/
+
+/*TABLES*/
+
+.example { 
+	width: 730px; 
+	border: 1px solid blue; 
+	border-spacing: 15px; 
+}
+.example td, th { 
+	border: 1px solid black; 
+	padding: 3px; 
+}
+.leftcell { 
+	width: 40%; 
+}
+.nested th { 
+	text-align: left; 
+	border: none; 
+}
+
+/*HTML5*/
+header, footer, section, article, aside { 
+	position: relative; 
+	/*for position: absolute element inside*/ 
+}
+
